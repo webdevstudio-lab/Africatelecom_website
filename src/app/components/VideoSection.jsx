@@ -12,12 +12,12 @@ const VideoSection = () => {
           data-aos-duration="2000"
           data-aos-once="true"
         >
-          <div className="flex h-[25rem] w-full flex-col items-center justify-center rounded-2xl bg-orange-300 bg-[url('/PlaySerction.jpg')] bg-center bg-no-repeat lg:w-1/2">
+          <div className="flex h-[25rem] w-full flex-col items-center justify-center rounded-2xl bg-blue-300 bg-[url('/PlaySerction2.jpg')] bg-cover bg-no-repeat lg:w-1/2">
             <PlayCircle className="h-[4rem] w-[4rem] text-white" />
           </div>
 
           <div className="flex w-full flex-col gap-4 lg:w-1/2">
-            <p className="text-md font-semibold text-orange-500">
+            <p className="text-md font-semibold text-blue-500">
               Home And Commercial Waste and Recycling service
             </p>
             <p className="text-[2rem] font-bold">

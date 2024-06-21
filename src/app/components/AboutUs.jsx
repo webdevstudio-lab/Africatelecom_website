@@ -10,7 +10,7 @@ const AboutUs = () => {
       <MaxWidthContaine>
         <div className="flex flex-col items-center rounded-b-2xl shadow-lg lg:flex-row">
           <div
-            className="relative flex flex-col items-start gap-4 bg-green-600 p-5 text-white lg:w-1/4 lg:rounded-bl-2xl"
+            className="relative flex flex-col items-start gap-4 bg-blue-600 p-5 text-white lg:w-1/4 lg:rounded-bl-2xl"
             data-aos="fade-up"
             data-aos-duration="1600"
             data-aos-once="true"

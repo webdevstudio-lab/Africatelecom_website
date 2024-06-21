@@ -5,7 +5,7 @@ import { ArrowRightCircle, Check, File, PlayIcon } from "lucide-react";
 
 const MoreAboutUs = () => {
   return (
-    <div className="mb-10 mt-20">
+    <div className="mb-20 mt-20 lg:mb-10">
       <MaxWidthContaine>
         <div className="flex flex-col items-center lg:relative lg:flex-row">
           <div
@@ -37,7 +37,7 @@ const MoreAboutUs = () => {
               <div className="flex flex-row items-center justify-start gap-6 text-xs font-semibold text-white">
                 <Link
                   href="#"
-                  className="flex flex-row items-center gap-4 bg-green-500 px-4 py-3 transition-all duration-200 hover:bg-orange-500"
+                  className="flex flex-row items-center gap-4 bg-blue-500 px-4 py-3 transition-all duration-200 hover:bg-blue-800"
                 >
                   <p>More About Us</p>
                   <ArrowRightCircle />
@@ -45,7 +45,7 @@ const MoreAboutUs = () => {
 
                 <Link
                   href="#"
-                  className="flex flex-row items-center gap-4 border-2 border-black px-4 py-3 text-black transition-all duration-200 hover:border-green-500 hover:bg-green-500 hover:text-white"
+                  className="flex flex-row items-center gap-4 border-2 border-black px-4 py-3 text-black transition-all duration-200 hover:border-blue-500 hover:bg-blue-500 hover:text-white"
                 >
                   <p>Dossier Technique</p>
                   <File />
@@ -55,19 +55,19 @@ const MoreAboutUs = () => {
 
             <div className="flex flex-col items-start justify-start">
               <div className="flex flex-row items-center gap-4 border-b-2 border-slate-300 p-4 lg:w-[33rem]">
-                <Check className="h-7 w-7 rounded-full bg-green-100 p-1 text-green-700" />
+                <Check className="h-7 w-7 rounded-full bg-blue-100 p-1 text-blue-700" />
                 <p className="text-sm font-bold">
                   Commerciel & business Waste Management Expert
                 </p>
               </div>
               <div className="flex flex-row items-center gap-4 border-b-2 border-slate-300 p-4 lg:w-[33rem]">
-                <Check className="h-7 w-7 rounded-full bg-green-100 p-1 text-green-700" />
+                <Check className="h-7 w-7 rounded-full bg-blue-100 p-1 text-blue-700" />
                 <p className="text-sm font-bold">
                   Provider Regular, Reliable and Convennient Services
                 </p>
               </div>
               <div className="flex flex-row items-center gap-4 border-b-2 border-slate-300 p-4 lg:w-[33rem]">
-                <Check className="h-7 w-7 rounded-full bg-green-100 p-1 text-green-700" />
+                <Check className="h-7 w-7 rounded-full bg-blue-100 p-1 text-blue-700" />
                 <p className="text-sm font-bold">
                   We ar never far away from business to help
                 </p>
@@ -83,7 +83,7 @@ const MoreAboutUs = () => {
           >
             <div className="relative">
               <img
-                src="/abouUs.webp"
+                src="/abouUs2.jpg"
                 alt="about img"
                 className="w-[35rem] lg:rounded-3xl"
               />
@@ -97,7 +97,7 @@ const MoreAboutUs = () => {
                   </p>
                   <Link
                     href="#"
-                    className="group flex flex-row items-center gap-2 text-green-600"
+                    className="group flex flex-row items-center gap-2 text-blue-600"
                   >
                     <p className="font-semibold group-hover:underline">
                       Explore More

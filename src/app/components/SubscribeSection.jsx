@@ -5,7 +5,7 @@ import FormRequest from "./FormRequest";
 
 const SubscribeSection = () => {
   return (
-    <div className="bg-green-700">
+    <div className="bg-blue-700">
       <MaxWidthContaine>
         <div
           className="flex flex-col items-center justify-between gap-10 lg:flex-row"

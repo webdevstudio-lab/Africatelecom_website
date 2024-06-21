@@ -7,9 +7,9 @@ const BannerSection = () => {
     <div className="mb-6 flex flex-col lg:flex-row">
       <div className="relative w-full lg:w-1/2">
         <div>
-          <img src="/banerImg.webp" alt="baner img" className="w-full" />
+          <img src="/banerImg2.jpg" alt="baner img" className="w-full" />
         </div>
-        <div className="absolute bottom-0 flex w-[20rem] flex-col items-start gap-2 rounded-tr-2xl bg-orange-400 p-6 text-white">
+        <div className="absolute bottom-0 flex w-[20rem] flex-col items-start gap-2 rounded-tr-2xl bg-blue-600 p-6 text-white">
           <p className="text-[3rem] font-semibold">97%</p>
           <p className="font-semibold">Customer Satisfaction</p>
           <p className="text-sm font-light">
@@ -21,7 +21,7 @@ const BannerSection = () => {
       </div>
 
       <div
-        className="w-full space-y-6 bg-green-600 p-10 text-white lg:w-1/2"
+        className="w-full space-y-6 bg-blue-600 p-10 text-white lg:w-1/2"
         data-aos="fade-up"
         data-aos-duration="2000"
         data-aos-once="true"
@@ -49,7 +49,7 @@ const BannerSection = () => {
             </div>
             <Progress
               value={85}
-              className="h-2 w-full bg-green-200/65 lg:w-full"
+              className="h-2 w-full bg-blue-200/65 lg:w-full"
             />
           </div>
           <div className="w-full space-y-2">
@@ -59,7 +59,7 @@ const BannerSection = () => {
             </div>
             <Progress
               value={55}
-              className="h-2 w-full bg-green-200/65 lg:w-full"
+              className="h-2 w-full bg-blue-200/65 lg:w-full"
             />
           </div>
           <div className="w-full space-y-2">
@@ -69,7 +69,7 @@ const BannerSection = () => {
             </div>
             <Progress
               value={45}
-              className="h-2 w-full bg-green-200/65 lg:w-full"
+              className="h-2 w-full bg-blue-200/65 lg:w-full"
             />
           </div>
         </div>

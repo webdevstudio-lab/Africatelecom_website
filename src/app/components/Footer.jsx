@@ -10,17 +10,13 @@ const Footer = () => {
         <MaxWidthContaine>
           <div className="flex flex-col items-start p-10 text-white lg:flex-row">
             <div className="flex w-full flex-col gap-4 p-4 lg:w-1/4">
-              <img
-                src="/webdev.jpg"
-                alt="logo webdev"
-                className="w-20 rounded-full"
-              />
-              <p className="text-xs text-muted-foreground">
+              <img src="/logoafte.png" alt="logo webdev" className="w-[7rem]" />
+              <p className="text-left text-xs text-muted-foreground">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias rerum harum, nobis atque distinctio animi labore
               </p>
 
-              <div className="flex flex-row items-center gap-2 text-xs text-orange-400">
+              <div className="flex flex-row items-start gap-2 text-xs text-orange-400">
                 <Mail />
                 <p>WebdevStudio2023@gmail.com</p>
               </div>
@@ -129,8 +125,16 @@ const Footer = () => {
           </div>
         </MaxWidthContaine>
       </div>
-      <div className="bg-slate-600 py-1 text-center text-xs text-white">
-        <MaxWidthContaine>Webdev</MaxWidthContaine>
+      <div className="bg-white py-2">
+        <MaxWidthContaine>
+          <div className="flex flex-col items-center justify-end gap-3 lg:flex-row">
+            <p className="text-xs text-slate-700">
+              Conception par WebdevStudion | 00225 0759436519 |
+              webdevstudio2023@gmail.com
+            </p>
+            <img src="/webdev2.png" alt="logo webdev" className="w-[2rem]" />
+          </div>
+        </MaxWidthContaine>
       </div>
     </>
   );

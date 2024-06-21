@@ -16,7 +16,7 @@ const ContactSection = () => {
           <div className="flex flex-col rounded-3xl bg-orange-400 lg:flex-row">
             <div className="w-full lg:w-2/5">
               <img
-                src="/bannergetStart.webp"
+                src="/contactimg2.jpg"
                 alt="getstart Image"
                 className="h-full w-full rounded-l-2xl"
               />

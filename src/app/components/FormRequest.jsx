@@ -106,7 +106,7 @@ const FormRequest = () => {
         </div>
       </div>
 
-      <button className="rounded-sm bg-black py-2 text-xs font-bold text-white">
+      <button className="rounded-sm bg-blue-500 py-2 text-xs font-bold text-white">
         SEND YOUR REQUEST
       </button>
     </form>

@@ -13,7 +13,7 @@ const ServiceSection = () => {
           data-aos-duration="2000"
           data-aos-once="true"
         >
-          <p className="text-xl font-semibold text-orange-400">
+          <p className="text-xl font-semibold text-blue-600">
             Safe And Trusted Waste Collection Service
           </p>
           <p className="text-[2.5rem] font-bold">
@@ -32,12 +32,12 @@ const ServiceSection = () => {
           >
             <div className="relative">
               <img
-                src="/serviceimg1.jpg"
+                src="/service-01.jpg"
                 alt="service image"
                 className="h-[18rem] w-full rounded-2xl lg:w-[25rem]"
               />
 
-              <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-green-700 transition-all duration-300 group-hover:block"></div>
+              <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-blue-400 transition-all duration-300 group-hover:block"></div>
               <Box className="absolute bottom-4 left-6 h-[4rem] w-[4rem] text-white" />
             </div>
 
@@ -55,7 +55,7 @@ const ServiceSection = () => {
 
               <Link
                 href="#"
-                className="flex w-[12rem] flex-row items-center gap-4 bg-green-500 px-4 py-3 text-white transition-all duration-200 group-hover:bg-orange-500"
+                className="flex w-[12rem] flex-row items-center gap-4 bg-blue-500 px-4 py-3 text-white transition-all duration-200 group-hover:bg-blue-700"
               >
                 <p>More About Us</p>
                 <ArrowRightCircle />
@@ -73,12 +73,12 @@ const ServiceSection = () => {
           >
             <div className="relative">
               <img
-                src="/serviceimg2.webp"
+                src="/constr.jpg"
                 alt="service image"
                 className="h-[18rem] w-full rounded-2xl lg:w-[25rem]"
               />
 
-              <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-green-700 transition-all duration-300 group-hover:block"></div>
+              <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-blue-400 transition-all duration-300 group-hover:block"></div>
               <BicepsFlexed className="absolute bottom-4 left-6 h-[4rem] w-[4rem] text-white" />
             </div>
 
@@ -96,7 +96,7 @@ const ServiceSection = () => {
 
               <Link
                 href="#"
-                className="flex w-[12rem] flex-row items-center gap-4 bg-green-500 px-4 py-3 text-white transition-all duration-200 group-hover:bg-orange-500"
+                className="flex w-[12rem] flex-row items-center gap-4 bg-blue-500 px-4 py-3 text-white transition-all duration-200 group-hover:bg-blue-800"
               >
                 <p>More About Us</p>
                 <ArrowRightCircle />
@@ -114,12 +114,12 @@ const ServiceSection = () => {
           >
             <div className="relative">
               <img
-                src="/abouUs.webp"
+                src="/service-02.jpg"
                 alt="service image"
                 className="h-[18rem] w-full rounded-2xl lg:w-[25rem]"
               />
 
-              <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-green-700 transition-all duration-300 group-hover:block"></div>
+              <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-blue-400 transition-all duration-300 group-hover:block"></div>
               <Boxes className="absolute bottom-4 left-6 h-[4rem] w-[4rem] text-white" />
             </div>
 
@@ -137,7 +137,7 @@ const ServiceSection = () => {
 
               <Link
                 href="#"
-                className="flex w-[12rem] flex-row items-center gap-4 bg-green-500 px-4 py-3 text-white transition-all duration-200 group-hover:bg-orange-500"
+                className="flex w-[12rem] flex-row items-center gap-4 bg-blue-500 px-4 py-3 text-white transition-all duration-200 group-hover:bg-blue-800"
               >
                 <p>More About Us</p>
                 <ArrowRightCircle />
@@ -153,7 +153,7 @@ const ServiceSection = () => {
             </p>
             <Link
               href="#"
-              className="text-xl font-semibold text-green-500 hover:underline"
+              className="text-xl font-semibold text-orange-500 hover:underline"
             >
               {" "}
               Request a quote &rarr;{" "}

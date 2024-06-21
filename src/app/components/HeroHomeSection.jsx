@@ -14,7 +14,7 @@ const HeroHomeSection = () => {
   }, []);
 
   return (
-    <div className="h-[35rem] bg-blue-100 bg-[url('/slider-3-570x470.webp')] bg-cover bg-center bg-no-repeat">
+    <div className="h-[35rem] bg-blue-100 bg-[url('/heroimg2.jpeg')] bg-cover bg-center bg-no-repeat">
       <div className="h-full w-full bg-gradient-to-br from-black to-slate-600/25">
         <MaxWidthContaine>
           <div className="items-left flex flex-col text-white lg:flex-row">
@@ -26,8 +26,11 @@ const HeroHomeSection = () => {
                   data-aos-duration="1000"
                   data-aos-once="true"
                 >
-                  Helping All
-                  <br /> Types Of Industries <Typing />
+                  Le Partenaire Idéale
+                  <br />
+                  Pour vos Projets
+                  <br />
+                  <Typing />
                 </div>
                 <p
                   className="text-[12px]"
@@ -49,7 +52,7 @@ const HeroHomeSection = () => {
                 >
                   <Link
                     href="#"
-                    className="group flex flex-row items-center gap-2 rounded-md bg-white px-2 py-3 text-black transition-all duration-500 hover:bg-green-500"
+                    className="group flex flex-row items-center gap-2 rounded-md bg-white px-2 py-3 text-black transition-all duration-500 hover:bg-blue-500"
                   >
                     <p className="duration-250 text-xs font-semibold transition-all group-hover:text-white">
                       Explore Our Services
@@ -83,7 +86,7 @@ const HeroHomeSection = () => {
               >
                 <div className="my-auto w-2/3 px-2 text-xs text-black">
                   <p>
-                    <span className="font-semibold text-green-500 underline">
+                    <span className="font-semibold text-blue-500 underline">
                       adipisicing elit. Suscipit
                     </span>{" "}
                     adipisicing elit. Suscipit enim maiores veniam, iste animi
@@ -92,7 +95,7 @@ const HeroHomeSection = () => {
                 </div>
 
                 <div
-                  className="flex w-1/3 flex-row items-center justify-center bg-green-500"
+                  className="flex w-1/3 flex-row items-center justify-center bg-blue-700"
                   data-aos="fade-right"
                   data-aos-duration="2000"
                   data-aos-once="true"

@@ -20,7 +20,7 @@ const SmMenutoogle = () => {
           <SheetHeader>
             <SheetTitle className={"mb-10 flex flex-row justify-center"}>
               <img
-                src="/webdev.jpg"
+                src="/logoafte.png"
                 alt="logo webdev"
                 className="w-20 rounded-full"
               />
@@ -30,23 +30,23 @@ const SmMenutoogle = () => {
                 <div className="flex-col items-center">
                   <div className="mb-10 flex flex-col items-center justify-between pr-4">
                     <ul className="flex w-full flex-col items-center justify-between gap-10">
-                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-orange-500 hover:text-lime-700">
+                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-blue-500 hover:text-blue-700">
                         <Link href="#">Home</Link>
                       </div>
 
-                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-orange-500 hover:text-lime-700">
+                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-blue-500 hover:text-blue-700">
                         <Link href="#">A Propos</Link>
                       </div>
 
-                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-orange-500 hover:text-lime-700">
+                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-blue-500 hover:text-blue-700">
                         <Link href="#">Services</Link>
                       </div>
 
-                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-orange-500 hover:text-lime-700">
+                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-blue-500 hover:text-blue-700">
                         <Link href="#">Q-HSE</Link>
                       </div>
 
-                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-orange-500 hover:text-lime-700">
+                      <div className="flex h-[2.5rem] w-full cursor-pointer flex-col items-center -space-y-[2px] px-2 py-1.5 text-[16px] font-semibold uppercase transition-all duration-100 hover:border-b-[3px] hover:border-blue-500 hover:text-blue-700">
                         <Link href="#">Blog</Link>
                       </div>
                     </ul>

@@ -10,9 +10,7 @@ const AccordionSerction = () => {
     <div>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
-          <AccordionTrigger
-            className={"text-sm font-bold hover:text-orange-500"}
-          >
+          <AccordionTrigger className={"text-sm font-bold hover:text-blue-500"}>
             Food Recycling And Digestion
           </AccordionTrigger>
           <AccordionContent
@@ -27,9 +25,7 @@ const AccordionSerction = () => {
         </AccordionItem>
 
         <AccordionItem value="item-2">
-          <AccordionTrigger
-            className={"text-sm font-bold hover:text-orange-500"}
-          >
+          <AccordionTrigger className={"text-sm font-bold hover:text-blue-500"}>
             Metal And Plastique Recycling Facilitites
           </AccordionTrigger>
           <AccordionContent
@@ -44,9 +40,7 @@ const AccordionSerction = () => {
         </AccordionItem>
 
         <AccordionItem value="item-3">
-          <AccordionTrigger
-            className={"text-sm font-bold hover:text-orange-500"}
-          >
+          <AccordionTrigger className={"text-sm font-bold hover:text-blue-500"}>
             Medical And Biologocal Traitement
           </AccordionTrigger>
           <AccordionContent
